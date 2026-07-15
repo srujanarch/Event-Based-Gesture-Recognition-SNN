@@ -22,17 +22,20 @@ Project Highlights
 
 ✅ Model evaluation using confusion matrix and accuracy metrics
 
-Dataset
+## 📂 Dataset
 
-IBM DVS128 Gesture Dataset
+**IBM DVS128 Gesture Dataset**
 
-11 gesture classes
-29 participants
-128 × 128 event camera
-Event-based recordings
-AEDAT 3.1 format
+- **11 gesture classes**
+- **29 participants**
+- **128 × 128 event camera**
+- **Event-based recordings**
+- **AEDAT 3.1 format**
 
-##Raw AEDAT Files
+## 🔄 Project Workflow
+
+```text
+Raw AEDAT Files
         │
         ▼
 Load Event Stream
@@ -54,17 +57,29 @@ SNN Training
         │
         ▼
 Evaluation
+```
 
-notebooks/
-    01_Preprocessing.ipynb
-    02_Model_Training.ipynb
-    03_Model_Evaluation.ipynb
+## 📁 Repository Structure
 
-images/
-
-report/
-
-model/
+```text
+Event-Based-Gesture-Recognition-using-Spiking-Neural-Networks/
+│
+├── notebooks/
+│   ├── 01_Preprocessing.ipynb
+│   ├── 02_Model_Training.ipynb
+│   └── 03_Model_Evaluation.ipynb
+│
+├── images/
+│
+├── report/
+│
+├── model/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
+```
 
 | Metric            | Value              |
 | ----------------- | ------------------ |
