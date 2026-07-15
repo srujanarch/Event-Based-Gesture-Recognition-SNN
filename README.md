@@ -40,5 +40,7 @@ Key Learnings
 
 *Organizing large ML workflows into modular preprocessing, training, and evaluation stages
 
+(The low accuracy is because I could complete only 5 epochs due to Google Colab limits)
+
 
 I'm excited to continue exploring Spiking Neural Networks, Neuromorphic AI, and Event-Based Vision.
