@@ -32,7 +32,7 @@ IBM DVS128 Gesture Dataset
 Event-based recordings
 AEDAT 3.1 format
 
-Raw AEDAT Files
+##Raw AEDAT Files
         │
         ▼
 Load Event Stream
@@ -73,43 +73,51 @@ model/
 | Classes           | **11**             |
 | Dataset           | IBM DVS128 Gesture |
 
+
+
 Training Curves
 <img width="682" height="470" alt="image" src="https://github.com/user-attachments/assets/983d71b6-a5dd-47e0-828f-5204d880ff0c" />
 
 <img width="682" height="470" alt="image" src="https://github.com/user-attachments/assets/508db47a-3b3a-4bfa-9e4d-37a791d134f8" />
 
+
+
 Confusion Matrix
 <img width="696" height="644" alt="image" src="https://github.com/user-attachments/assets/70e2c5e1-fe2d-4782-b5dc-06562ec6d046" />
 
-Technologies Used
-Python
-PyTorch
-snnTorch
-NumPy
-Pandas
-Matplotlib
-Google Colab
+## 🛠️ Technologies Used
+- Python
+- PyTorch
+- snnTorch
+- NumPy
+- Pandas
+- Matplotlib
+- Google Colab
 
-Challenges Faced
+ ## 🚧 Challenges Faced
 
-During development several engineering challenges were encountered:
+During development, several engineering challenges were encountered:
 
-*Transition from Tonic to a custom preprocessing pipeline
-*Parsing AEDAT 3.1 event files
-*Google Colab GPU runtime limitations
-*Optimizing preprocessing through saved PyTorch tensors
-*Splitting the project into three modular notebooks
-*Debugging preprocessing and model evaluation
+- Transition from the Tonic library to a custom preprocessing pipeline.
+- Parsing AEDAT 3.1 event files.
+- Google Colab GPU runtime limitations.
+- Optimizing preprocessing by saving PyTorch tensors.
+- Splitting the project into three modular notebooks.
+- Debugging preprocessing and model evaluation.
 
 These challenges provided valuable experience in building robust machine learning workflows.
 
-Future Work
-*Train deeper SNN architectures
-*Real-time gesture recognition
-*Data augmentation for event streams
-*Deployment on neuromorphic hardware
-*Hyperparameter optimization
+## 🚀 Future Work
 
-Author
-Srujan Mishrikotkar
-BITS Pilani,Hyderabad Campus.
+- Train deeper SNN architectures.
+- Real-time gesture recognition.
+- Data augmentation for event streams.
+- Deployment on neuromorphic hardware.
+- Hyperparameter optimization.
+
+## 👨‍💻 Author
+
+**Srujan Mishrikotkar**
+
+BITS Pilani, Hyderabad Campus
+
